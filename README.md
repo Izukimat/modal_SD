@@ -11,6 +11,12 @@ This script sets up and runs a Stable Diffusion WebUI environment. It includes t
 2. **Install Dependencies**: Ensure that Python 3.10 or higher is installed on your system. You will also need Git for cloning the repository.
 
 ## Usage
+### Running the WebUI
+To start the WebUI, run the following command. This will set up the environment and launch the WebUI interface.
+   ```bash
+   modal run stable-diffusion-webui.py
+   ```
+   
 ### Adding Model Files
 1. Create a folder named `Stable-Diffusion` in the current directory.
 2. Place the desired model files (e.g., ChillOutMix) into this folder.
@@ -42,6 +48,3 @@ This script sets up and runs a Stable Diffusion WebUI environment. It includes t
    ```
    modal volume put stable-diffusion-webui-main embeddings /embeddings
    ```
-
-### Running the WebUI
-To start the WebUI, run the `main` function in the script. This will set up the environment and launch the WebUI interface.
